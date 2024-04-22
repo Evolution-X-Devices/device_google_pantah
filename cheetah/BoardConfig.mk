@@ -36,3 +36,4 @@ include device/google/pantah/wifi/BoardConfig-wifi.mk
 DEVICE_PATH := device/google/pantah
 VENDOR_PATH := vendor/google/cheetah
 include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfigLineage.mk
+include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfigEvolution.mk

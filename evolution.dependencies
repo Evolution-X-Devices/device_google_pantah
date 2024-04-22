@@ -1,0 +1,21 @@
+[
+  {
+    "repository": "device_google_gs201",
+    "target_path": "device/google/gs201"
+  },
+  {
+    "remote": "evo-tensor",
+    "repository": "device_google_pantah-kernels_evolution",
+    "target_path": "device/google/pantah-kernels/evolution"
+  },
+  {
+    "remote": "evo-tensor",
+    "repository": "vendor_google_panther",
+    "target_path": "vendor/google/panther"
+  },
+  {
+    "remote": "evo-tensor",
+    "repository": "vendor_google_cheetah",
+    "target_path": "vendor/google/cheetah"
+  }
+]

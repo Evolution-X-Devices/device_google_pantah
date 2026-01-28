@@ -7,6 +7,6 @@
     "remote": "github",
     "repository": "LineageOS/android_device_google_pantah-kernels",
     "target_path": "device/google/pantah-kernels",
-    "branch": "lineage-23.2"
+    "branch": "lineage-24.0"
   }
 ]

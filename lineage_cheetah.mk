@@ -23,6 +23,9 @@ PRODUCT_SYSTEM_NAME := generic_system_google
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
+# Custom flags
+TARGET_HAS_UDFPS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="cheetah-user 17 CP3A.261005.002.A1 16269273 release-keys" \
     BuildSystemDesc=generic_system_google-user 17 CP3A.261005.002.A1 16269273 release-keys \

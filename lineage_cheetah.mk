@@ -23,6 +23,10 @@ PRODUCT_SYSTEM_NAME := generic_system_google
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
+# Custom flags
+TARGET_HAS_UDFPS := true
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="cheetah-user 17 CP2A.260705.006 15641320 release-keys" \
     BuildFingerprint=google/cheetah/cheetah:17/CP2A.260705.006/15641320:user/release-keys \

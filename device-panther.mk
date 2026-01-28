@@ -38,9 +38,6 @@ PRODUCT_PACKAGES += \
     SettingsOverlayGVU6C_VN \
     SystemUIGoogleOverlayVendorPanther
 
-PRODUCT_PACKAGES += \
-    ApertureOverlayPanther
-
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 

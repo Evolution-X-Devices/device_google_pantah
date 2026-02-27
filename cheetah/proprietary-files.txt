@@ -2,10 +2,6 @@
 
 # product partition
 
-# AiAi
-product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2022-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2022-playstore_aiai_20250306.00_RC10.apk;PRESIGNED
-
 # Audio
 product/etc/ambient/matcher_tah.leveldb
 product/etc/firmware/music_detector.descriptor
@@ -19,6 +15,9 @@ product/priv-app/GoogleCamera/GoogleCamera.apk;OVERRIDES=Aperture,Camera2;PRESIG
 # Camera extensions
 product/etc/permissions/androidx.camera.extensions.impl.xml
 product/priv-app/PixelCameraServicesConnectivityClient/PixelCameraServicesConnectivityClient.apk;PRESIGNED
+
+# Camera permissions
+product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
 
 # Camera services
 product/etc/permissions/com.google.pixel.camera.connectivity.impl.xml
@@ -42,22 +41,6 @@ product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
 
 # NFC
 product/etc/libnfc-nci.conf
-
-# Permissions
-product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-evolution.xml
-product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
-product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
-product/etc/sysconfig/nexus.xml
-product/etc/sysconfig/pixel_experience_2017.xml
-product/etc/sysconfig/pixel_experience_2018.xml
-product/etc/sysconfig/pixel_experience_2019.xml
-product/etc/sysconfig/pixel_experience_2019_midyear.xml
-product/etc/sysconfig/pixel_experience_2020.xml
-product/etc/sysconfig/pixel_experience_2020_midyear.xml
-product/etc/sysconfig/pixel_experience_2021.xml
-product/etc/sysconfig/pixel_experience_2021_midyear.xml
-product/etc/sysconfig/pixel_experience_2022.xml
-product/etc/sysconfig/pixel_experience_2022_midyear.xml
 
 # Radio
 product/etc/permissions/com.android.sdm.plugins.connmo.xml
@@ -133,9 +116,6 @@ system_ext/lib64/libmediaadaptor.so
 system_ext/priv-app/PixelQualifiedNetworksService/PixelQualifiedNetworksService.apk
 system_ext/priv-app/ShannonIms/ShannonIms.apk;PRESIGNED
 system_ext/priv-app/ShannonRcs/ShannonRcs.apk;PRESIGNED
-
-# Permissions
-system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-evolution.xml
 
 # Radio
 system_ext/etc/default-permissions/default-permissions-euiccpixel.xml
